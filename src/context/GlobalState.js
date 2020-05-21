@@ -1,14 +1,17 @@
 import React, { createContext, useReducer } from 'react';
 import AppReducer from './AppReducer';
 
+
 // Initial state
-const initialState = {
+export const initialState = {
   data: [
-    { Description: 'Beef', Amount: 3 , Date: '2020-01-23' },
-    { Description: 'Apple', Amount: 2 , Date: '2020-01-23' },
-    { Description: 'Egg', Amount: 1 , Date: '2020-01-23' },
+    { Description: 'Beef', Amount: 3 , Date: '2020-01-23 1:33:23' },
+    { Description: 'Apple', Amount: 2 , Date: '2020-01-23 12:22:33'},
+    { Description: 'Egg', Amount: 1 , Date: '2020-01-23 12:22:1' },
   ]
 }
+
+
 
 // Create context
 export const GlobalContext = createContext(initialState);

@@ -6,7 +6,6 @@ import { GlobalProvider } from './context/GlobalState';
 
 import Grid from '@material-ui/core/Grid';
 
-
 function App() {
   return (
       <GlobalProvider>
